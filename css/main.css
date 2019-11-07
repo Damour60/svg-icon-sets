@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  border-bottom: 5px solid rgba(255, 255, 255,.4);
+  border-bottom: 5px solid rgba(255, 255, 255, .4);
 }
 
 .card:last-child {
@@ -31,11 +31,11 @@ body {
 @media only screen and (min-width: 60em) {
 
   .card {
-    border-right: 5px solid rgba(255, 255, 255,.4);
+    border-right: 5px solid rgba(255, 255, 255, .4);
     border-bottom: none;
   }
 
-  .card:last-child{
+  .card:last-child {
     border: none;
   }
 
